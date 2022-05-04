@@ -12,6 +12,10 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
                 <title>Create Next App</title>
                 <meta name="nextjs-typescript-tailwind-redux-graphql" />
                 <link rel="icon" href="/favicon.ico" />
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap"
+                    rel="stylesheet"
+                />
             </Head>
             <Component {...pageProps} />
         </>
