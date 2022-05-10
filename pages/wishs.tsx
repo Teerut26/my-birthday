@@ -30,9 +30,6 @@ const Wishs: React.FC<Props> = ({}) => {
                     <div className="font-bold text-co-white text-3xl ">
                         คำอวยพรล่าสุด
                     </div>
-                    {/* <div className="absolute mx-auto max-w-md top-0 left-0 w-full">
-                        x
-                    </div> */}
                 </div>
             </div>
             <div className="max-w-[30rem]  mx-auto gap-3 flex flex-col items-center p-3 w-full">
@@ -40,9 +37,6 @@ const Wishs: React.FC<Props> = ({}) => {
                     {Data.map((item, idx) => (
                         <Wish {...item} />
                     ))}
-                    {/* {[...Array(10)].map((item) => (
-                        <Wish />
-                    ))} */}
                 </div>
             </div>
         </>
@@ -50,7 +44,6 @@ const Wishs: React.FC<Props> = ({}) => {
 };
 
 const Wish = (props: Response) => {
-    const [Expand, setExpand] = useState(false);
     return (
         <div
             className={`flex flex-col w-full justify-between border border-co-gray px-3 rounded-xl h-[8rem]`}
