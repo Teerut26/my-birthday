@@ -9,8 +9,8 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <>
             <Head>
-                <title>Create Next App</title>
-                <meta name="nextjs-typescript-tailwind-redux-graphql" />
+                <title>Teerut Birthday</title>
+                <meta name="Teerut Birthday" />
                 <link rel="icon" href="/favicon.ico" />
                 <link
                     href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap"
